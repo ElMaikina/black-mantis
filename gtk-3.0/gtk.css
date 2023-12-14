@@ -765,7 +765,7 @@ modelbutton.flat, button:link, button:visited, button:link:hover, button:link:ac
 menuitem.button.flat,
 modelbutton.flat {
   transition: none;
-  min-height: 24px;
+  min-height: 16px;
   padding-left: 8px;
   padding-right: 8px;
   outline-offset: -3px;

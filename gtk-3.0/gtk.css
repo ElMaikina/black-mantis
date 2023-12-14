@@ -239,8 +239,8 @@ treeview entry.flat, treeview entry {
     background-image: -gtk-gradient(radial, center center, 0, center center, 0.5, to(#222222), to(transparent)); } }
 
 button, .budgie-panel button {
-  min-height: 22px;
-  min-width: 20px;
+  min-height: 16px;
+  min-width: 16px;
   transition: all 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
   border: 1px solid;
   border-radius: 3px;
@@ -294,7 +294,7 @@ button, .budgie-panel button {
       button:disabled:active label, button:disabled:active, button:disabled:checked label, button:disabled:checked {
         color: rgba(243, 243, 243, 0.8); }
   button.image-button {
-    min-width: 24px;
+    min-width: 16px;
     padding-left: 5px;
     padding-right: 5px; }
   button.text-button {
@@ -325,8 +325,8 @@ button, .budgie-panel button {
     border-color: rgba(6, 6, 6, 0.95); }
     button.osd.image-button {
       padding: 0;
-      min-height: 36px;
-      min-width: 36px; }
+      min-height: 16px;
+      min-width: 16px; }
     button.osd:hover {
       color: #222222; }
     button.osd:active, button.osd:checked {
@@ -826,7 +826,7 @@ spinbutton:disabled {
   color: rgba(187, 187, 187, 0.45); }
 
 spinbutton:not(.vertical) entry {
-  min-width: 28px; }
+  min-width: 24px; }
 
 spinbutton:not(.vertical):dir(ltr) entry,
 spinbutton:not(.vertical):dir(rtl) button.up {
@@ -1578,7 +1578,7 @@ menu,
   menu menuitem,
   .menu menuitem {
     min-height: 16px;
-    min-width: 40px;
+    min-width: 16px;
     padding: 5px; }
     menu menuitem:hover,
     .menu menuitem:hover {
@@ -1713,8 +1713,8 @@ notebook {
       padding-bottom: 0; }
       notebook > header.top > tabs > tab {
         padding: 2px 10px;
-        min-width: 20px;
-        min-height: 20px;
+        min-width: 16px;
+        min-height: 16px;
         outline-offset: -4px;
         border: 1px solid transparent;
         border-bottom: none;
@@ -1725,8 +1725,8 @@ notebook {
       padding-top: 0; }
       notebook > header.bottom > tabs > tab {
         padding: 2px 10px;
-        min-width: 20px;
-        min-height: 20px;
+        min-width: 16px;
+        min-height: 16px;
         outline-offset: -4px;
         border: 1px solid transparent;
         border-top: none;
@@ -1737,8 +1737,8 @@ notebook {
       padding-left: 0; }
       notebook > header.right > tabs > tab {
         padding: 2px 10px;
-        min-width: 20px;
-        min-height: 20px;
+        min-width: 16px;
+        min-height: 16px;
         outline-offset: -4px;
         border: 1px solid transparent;
         border-left: none;
@@ -1749,8 +1749,8 @@ notebook {
       padding-right: 0; }
       notebook > header.left > tabs > tab {
         padding: 2px 10px;
-        min-width: 20px;
-        min-height: 20px;
+        min-width: 16px;
+        min-height: 16px;
         outline-offset: -4px;
         border: 1px solid transparent;
         border-right: none;
@@ -1801,7 +1801,7 @@ notebook {
         background-color: #000000;
         border-color: #060606; }
       notebook > header > tabs > tab button.flat, notebook > header > tabs > tab button.sidebar-button, .budgie-panel notebook > header > tabs > tab button.flat, .budgie-panel notebook > header > tabs > tab button.sidebar-button {
-        min-height: 22px;
+        min-height: 16px;
         min-width: 16px;
         padding: 0;
         color: #818181; }
@@ -1867,16 +1867,16 @@ scrollbar {
       border: 1px solid rgba(0, 0, 0, 0.3); }
     scrollbar.overlay-indicator:not(.dragging):not(.hovering).horizontal slider {
       margin: 0 2px;
-      min-width: 40px; }
+      min-width: 16px; }
     scrollbar.overlay-indicator:not(.dragging):not(.hovering).vertical slider {
       margin: 2px 0;
       min-height: 40px; }
   scrollbar.overlay-indicator.dragging, scrollbar.overlay-indicator.hovering {
     opacity: 0.99; }
   scrollbar.horizontal slider {
-    min-width: 40px; }
+    min-width: 32px; }
   scrollbar.vertical slider {
-    min-height: 40px; }
+    min-height: 32px; }
 
 switch {
   font-size: 1px;
@@ -2649,8 +2649,8 @@ placessidebar row {
   placessidebar row label.sidebar-label:dir(rtl) {
     padding-left: 2px; }
   button.sidebar-button {
-    min-width: 22px;
-    min-height: 22px;
+    min-width: 16px;
+    min-height: 16px;
     margin-top: 2px;
     margin-bottom: 2px;
     padding: 0;
@@ -2955,7 +2955,7 @@ headerbar.default-decoration button.titlebutton,
 headerbar button.titlebutton,
 .titlebar button.titlebutton {
   padding: 0;
-  min-width: 24px;
+  min-width: 16px;
   border-color: transparent;
   background-color: transparent;
   background-image: none;
@@ -3073,8 +3073,8 @@ terminal-window notebook > header.top,
   terminal-window notebook > header.top button,
   .mate-terminal notebook > header.top button {
     padding: 0;
-    min-width: 24px;
-    min-height: 24px; }
+    min-width: 16px;
+    min-height: 16px; }
 
 .nautilus-canvas-item {
   border-radius: 2px; }
@@ -3217,8 +3217,8 @@ popover.background label.nautilus-canvas-item.separator, headerbar .nautilus-can
     color: rgba(243, 243, 243, 0.9); }
 
 .gedit-document-panel row button {
-  min-width: 22px;
-  min-height: 22px;
+  min-width: 16px;
+  min-height: 16px;
   padding: 0;
   color: transparent;
   background: none;
@@ -4413,7 +4413,7 @@ filechooser placessidebar.sidebar scrollbar,
   .budgie-panel separator {
     background-color: rgba(187, 187, 187, 0.4); }
   .budgie-panel.vertical #tasklist-button {
-    min-height: 32px; }
+    min-height: 16px; }
   .budgie-panel .end-region {
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 0px; }
@@ -4707,7 +4707,7 @@ filechooser placessidebar.sidebar scrollbar,
   padding-bottom: 6px; }
 
 .budgie-menu button {
-  min-height: 32px;
+  min-height: 16px;
   padding: 0 8px;
   border-radius: 0;
   color: #FFFFFF;
@@ -4776,7 +4776,7 @@ frame.raven-frame > border {
   padding: 0;
   border: none; }
   .raven .raven-header {
-    min-height: 32px;
+    min-height: 16px;
     padding: 3px; }
     .raven .raven-header.top {
       padding: 2px 0;
@@ -4784,7 +4784,7 @@ frame.raven-frame > border {
       color: #FFFFFF; }
       .raven .raven-header.top stackswitcher button {
         margin: -6px 0;
-        min-height: 32px; }
+        min-height: 16px; }
     .raven .raven-header.bottom {
       border-top: 1px solid #060606; }
   .raven viewport.frame .raven-header {

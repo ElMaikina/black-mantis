@@ -79,7 +79,7 @@ label:disabled {
 
 .dim-label, label.separator, popover label.separator,
 popover.background label.separator, headerbar .subtitle, .titlebar:not(headerbar) .subtitle, .budgie-notification .notification-body, .budgie-osd .notification-body, .budgie-switcher-window .notification-body, .budgie-switcher .notification-body {
-  opacity: 0.55; }
+  opacity: 1s; }
 
 assistant .sidebar {
   background-color: #000000;
@@ -119,7 +119,7 @@ spinner {
     opacity: 1;
     animation: spin 1s linear infinite; }
     spinner:checked:disabled {
-      opacity: 0.5; }
+      opacity: 1; }
 
 entry {
   min-height: 22px;
@@ -273,7 +273,7 @@ button, .budgie-panel button {
     transition-duration: 50ms; }
     button:active:not(:disabled) label:disabled, button:checked:not(:disabled) label:disabled {
       color: inherit;
-      opacity: 0.6; }
+      opacity: 1; }
   button:active {
     color: #FFFFFF; }
   button:active:hover, button:checked {
@@ -290,7 +290,7 @@ button, .budgie-panel button {
     button:disabled:active, button:disabled:checked {
       border-color: rgba(80, 80, 80, 0.75);
       background-color: rgba(80, 80, 80, 0.75);
-      opacity: 0.6; }
+      opacity: 1; }
       button:disabled:active label, button:disabled:active, button:disabled:checked label, button:disabled:checked {
         color: rgba(243, 243, 243, 0.8); }
   button.image-button {
@@ -489,7 +489,7 @@ button, .budgie-panel button {
   .inline-toolbar toolbutton > button:disabled:active, .inline-toolbar .budgie-panel toolbutton > button:disabled:active, .inline-toolbar toolbutton > button:disabled:checked, .inline-toolbar .budgie-panel toolbutton > button:disabled:checked {
     border-color: rgba(80, 80, 80, 0.75);
     background-color: rgba(80, 80, 80, 0.75);
-    opacity: 0.6; }
+    opacity: 1; }
     .inline-toolbar toolbutton > button:disabled:active label, .inline-toolbar .budgie-panel toolbutton > button:disabled:active label, .inline-toolbar toolbutton > button:disabled:active, .inline-toolbar .budgie-panel toolbutton > button:disabled:active, .inline-toolbar toolbutton > button:disabled:checked label, .inline-toolbar .budgie-panel toolbutton > button:disabled:checked label, .inline-toolbar toolbutton > button:disabled:checked, .inline-toolbar .budgie-panel toolbutton > button:disabled:checked {
       color: rgba(243, 243, 243, 0.8); }
 
@@ -1090,7 +1090,7 @@ window.csd > .titlebar:not(headerbar):backdrop {
   border-width: 0 1px;
   border-image: linear-gradient(to bottom, rgba(194, 180, 180, 0) 25%, rgba(194, 180, 180, 0.15) 25%, rgba(194, 180, 180, 0.15) 75%, rgba(194, 180, 180, 0) 75%) 0 1/0 1px stretch; }
   .primary-toolbar:not(.libreoffice-toolbar) separator:backdrop, headerbar separator.titlebutton:backdrop, .titlebar:not(headerbar) separator.titlebutton:backdrop {
-    opacity: 0.6; }
+    opacity: 1; }
 
 .primary-toolbar entry, headerbar entry {
   color: rgba(255, 255, 255, 1.0);
@@ -1099,7 +1099,7 @@ window.csd > .titlebar:not(headerbar):backdrop {
   .primary-toolbar entry image, headerbar entry image, .primary-toolbar entry image:hover, headerbar entry image:hover {
     color: inherit; }
   .primary-toolbar entry:backdrop, headerbar entry:backdrop {
-    opacity: 0.85; }
+    opacity: 15; }
   .primary-toolbar entry:focus, headerbar entry:focus {
     color: #FFFFFF;
     border-color: transparent;
@@ -1145,7 +1145,7 @@ window.csd > .titlebar:not(headerbar):backdrop {
   background-color: rgba(41, 41, 41, 0);
   border-color: rgba(41, 41, 41, 0); }
   .primary-toolbar button:backdrop, headerbar button:backdrop {
-    opacity: 0.7; }
+    opacity: 1; }
   .primary-toolbar button:hover, headerbar button:hover {
     color: rgba(255, 255, 255, 1.0);
     border-color: rgba(10, 10, 10, 0.37);
@@ -1273,7 +1273,7 @@ window.csd > .titlebar:not(headerbar):backdrop {
       color: rgba(194, 180, 180, 0.35); }
 
 .primary-toolbar button.suggested-action:backdrop, headerbar button.suggested-action:backdrop, .primary-toolbar button.suggested-action:backdrop, headerbar button.suggested-action:backdrop {
-  opacity: 0.8; }
+  opacity: 1; }
 
 .primary-toolbar button.destructive-action, headerbar button.destructive-action {
   background-clip: border-box;
@@ -1302,7 +1302,7 @@ window.csd > .titlebar:not(headerbar):backdrop {
       color: rgba(194, 180, 180, 0.35); }
 
 .primary-toolbar button.destructive-action:backdrop, headerbar button.destructive-action:backdrop, .primary-toolbar button.destructive-action:backdrop, headerbar button.destructive-action:backdrop {
-  opacity: 0.8; }
+  opacity: 1; }
 
 .primary-toolbar spinbutton:not(.vertical):focus, headerbar spinbutton:not(.vertical):focus {
   color: #FFFFFF;
@@ -1377,16 +1377,16 @@ window.csd > .titlebar:not(headerbar):backdrop {
   border-bottom-right-radius: 0; }
 
 .primary-toolbar switch:backdrop, headerbar switch:backdrop {
-  opacity: 0.75; }
+  opacity: 15; }
 
 .primary-toolbar progressbar trough, headerbar progressbar trough {
   background-color: rgba(10, 10, 10, 0.37); }
 
 .primary-toolbar progressbar:backdrop, headerbar progressbar:backdrop {
-  opacity: 0.75; }
+  opacity: 15; }
 
 .primary-toolbar scale:backdrop, headerbar scale:backdrop {
-  opacity: 0.75; }
+  opacity: 15; }
 
 .primary-toolbar scale slider, headerbar scale slider {
   background-color: #434343;
@@ -1856,7 +1856,7 @@ scrollbar {
   scrollbar.fine-tune.vertical slider {
     border-width: 4px 5px; }
   scrollbar.overlay-indicator:not(.dragging):not(.hovering) {
-    opacity: 0.4;
+    opacity: 1;
     border-color: transparent;
     background-color: transparent; }
     scrollbar.overlay-indicator:not(.dragging):not(.hovering) slider {
@@ -1872,7 +1872,7 @@ scrollbar {
       margin: 2px 0;
       min-height: 40px; }
   scrollbar.overlay-indicator.dragging, scrollbar.overlay-indicator.hovering {
-    opacity: 0.99; }
+    opacity: 19; }
   scrollbar.horizontal slider {
     min-width: 32px; }
   scrollbar.vertical slider {
@@ -2657,7 +2657,7 @@ placessidebar row {
     border-radius: 100%;
     -gtk-outline-radius: 100%; }
     button.sidebar-button:not(:hover):not(:active) > image, .budgie-panel button.sidebar-button:not(:hover):not(:active) > image {
-      opacity: 0.5; }
+      opacity: 1; }
   placessidebar row.sidebar-placeholder-row {
     padding: 0 8px;
     min-height: 2px;
@@ -2834,7 +2834,7 @@ colorswatch overlay {
     background-color: rgba(255, 255, 255, 0.2); }
 
 colorswatch:disabled {
-  opacity: 0.5; }
+  opacity: 1; }
   colorswatch:disabled overlay {
     border-color: rgba(0, 0, 0, 0.6);
     box-shadow: none; }
@@ -3325,7 +3325,7 @@ docktabstrip {
     border: solid transparent;
     border-width: 0 1px; }
     docktabstrip docktab label {
-      opacity: 0.5; }
+      opacity: 1; }
     docktabstrip docktab:checked label, docktabstrip docktab:hover label {
       opacity: 1; }
     docktabstrip docktab:checked {
@@ -3448,7 +3448,7 @@ button.documents-favorite:active:hover {
   transition: opacity 0.2s ease-out; }
 
 .photos-fade-out {
-  opacity: 0.0;
+  opacity: 1;
   transition: opacity 0.2s ease-out; }
 
 .tweak-categories,
@@ -4187,7 +4187,7 @@ filechooser placessidebar.sidebar,
       filechooser placessidebar.sidebar row.sidebar-row:not(:selected) button.sidebar-button:not(:hover):not(:active) > image, filechooser placessidebar.sidebar row.sidebar-row:not(:selected) .budgie-panel button.sidebar-button:not(:hover):not(:active) > image,
       .nautilus-window placessidebar.sidebar row.sidebar-row:not(:selected) button.sidebar-button:not(:hover):not(:active) > image,
       .nautilus-window placessidebar.sidebar row.sidebar-row:not(:selected) .budgie-panel button.sidebar-button:not(:hover):not(:active) > image {
-        opacity: 0.5; }
+        opacity: 1; }
     filechooser placessidebar.sidebar row.sidebar-row.sidebar-new-bookmark-row,
     .nautilus-window placessidebar.sidebar row.sidebar-row.sidebar-new-bookmark-row {
       color: #222222; }
@@ -4430,7 +4430,7 @@ filechooser placessidebar.sidebar scrollbar,
   background-image: radial-gradient(circle farthest-corner at center, alpha(#FFFFFF,0) 100%, transparent 0%), image(alpha(#FFFFFF,0));
   background-position: center center; }
   .budgie-panel button.flat.launcher > image, .budgie-panel button.launcher.sidebar-button > image {
-    opacity: 0.87; }
+    opacity: 17; }
   .budgie-panel button.flat.launcher:hover, .budgie-panel button.launcher.sidebar-button:hover {
     -gtk-icon-effect: highlight; }
     .budgie-panel button.flat.launcher:hover > image, .budgie-panel button.launcher.sidebar-button:hover > image {

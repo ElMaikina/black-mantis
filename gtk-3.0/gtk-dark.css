@@ -2183,7 +2183,7 @@ scale {
     scale trough:disabled {
       background-color: rgba(8, 8, 8, 0.55); }
     .osd scale trough {
-      background-color: rgba(0, 0, 0, 0.95); }
+      background-color: rgba(0, 0, 0, 1); }
       .osd scale trough highlight {
         background-color: #222222; }
     menuitem:hover scale trough,
@@ -3553,7 +3553,7 @@ panel-toplevel.background #tasklist-button image {
 .mate-panel-menu-bar .wnck-pager,
 panel-toplevel.background .wnck-pager {
   color: #5d6268;
-  background-color: rgba(0, 0, 0, 0.95); }
+  background-color: rgba(0, 0, 0, 1); }
   .mate-panel-menu-bar .wnck-pager:hover,
   panel-toplevel.background .wnck-pager:hover {
     background-color: rgba(27, 27, 27, 0.95); }
@@ -4013,7 +4013,7 @@ GtkListBox .h4 {
   background-color: rgba(14, 14, 14, 0.95);
   color: #BAC3CF;
   font-weight: bold;
-  box-shadow: inset 0 -1px rgba(0, 0, 0, 0.95); }
+  box-shadow: inset 0 -1px rgba(0, 0, 0, 1); }
   #panel_window menubar {
     padding-left: 5px; }
     #panel_window menubar, #panel_window menubar > menuitem {
@@ -4251,7 +4251,7 @@ filechooser.maximized placessidebar.sidebar,
 filechooser actionbar {
   color: #BAC3CF;
   background-color: rgba(26, 26, 26, 0.95);
-  border-color: rgba(0, 0, 0, 0.95); }
+  border-color: rgba(0, 0, 0, 1); }
   filechooser actionbar label, filechooser actionbar combobox {
     color: #BAC3CF; }
 

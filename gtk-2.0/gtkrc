@@ -37,7 +37,7 @@ style "default"
     xthickness             = 1
     ythickness             = 1
 
-    base[ACTIVE]      = "#181818"
+    base[ACTIVE]      = "#000000"
     base[INSENSITIVE] = "#111111"
     base[NORMAL]      = "#000000"
     base[PRELIGHT]    = "#202020"

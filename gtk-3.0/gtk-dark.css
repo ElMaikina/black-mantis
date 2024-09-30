@@ -89,7 +89,7 @@ assistant.csd .sidebar {
   border-top-style: none; }
 
 assistant .sidebar label {
-  padding: 6px 12px; }
+  padding: 0px 0px; }
 
 assistant .sidebar label.highlight {
   background-color: #222222;
@@ -124,7 +124,7 @@ spinner {
 entry {
   min-height: 22px;
   border: 1px solid;
-  padding: 2px 8px;
+  padding: 0px 0px;
   caret-color: currentColor;
   border-radius: 3px;
   transition: all 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
@@ -244,7 +244,7 @@ button, .budgie-panel button {
   transition: all 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
   border: 1px solid;
   border-radius: 3px;
-  padding: 2px 6px;
+  padding: 0px 0px;
   color: #FFFFFF;
   border-color: #060606;
   background-color: #000000; }
@@ -1493,7 +1493,7 @@ treeview.view {
   treeview.view header button {
     min-height: 0;
     min-width: 0;
-    padding: 3px 6px;
+    padding: 0px 0px;
     font-weight: bold;
     color: #9b9b9b;
     background-color: #000000;
@@ -1538,7 +1538,7 @@ menubar,
     color: rgba(194, 180, 180, 0.5); }
   menubar > menuitem,
   .menubar > menuitem {
-    padding: 4px 8px;
+    padding: 0px 0px;
     border: solid transparent;
     border-width: 0; }
     menubar > menuitem:hover,
@@ -1559,7 +1559,7 @@ menu,
   border: 1px solid #060606; }
   .csd menu, .csd
   .menu {
-    padding: 4px 0px;
+    padding: 0px 0px;
     border-radius: 2px;
     border: none; }
   menu separator,
@@ -1712,7 +1712,7 @@ notebook {
     notebook > header.top {
       padding-bottom: 0; }
       notebook > header.top > tabs > tab {
-        padding: 2px 10px;
+        padding: 0px 0px;
         min-width: 16px;
         min-height: 16px;
         outline-offset: -4px;
@@ -1724,7 +1724,7 @@ notebook {
     notebook > header.bottom {
       padding-top: 0; }
       notebook > header.bottom > tabs > tab {
-        padding: 2px 10px;
+        padding: 0px 0px;
         min-width: 16px;
         min-height: 16px;
         outline-offset: -4px;
@@ -1736,7 +1736,7 @@ notebook {
     notebook > header.right {
       padding-left: 0; }
       notebook > header.right > tabs > tab {
-        padding: 2px 10px;
+        padding: 0px 0px;
         min-width: 16px;
         min-height: 16px;
         outline-offset: -4px;
@@ -1748,7 +1748,7 @@ notebook {
     notebook > header.left {
       padding-right: 0; }
       notebook > header.left > tabs > tab {
-        padding: 2px 10px;
+        padding: 0px 0px;
         min-width: 16px;
         min-height: 16px;
         outline-offset: -4px;
@@ -2183,7 +2183,7 @@ scale {
     scale trough:disabled {
       background-color: rgba(8, 8, 8, 0.55); }
     .osd scale trough {
-      background-color: rgba(0, 0, 0, 1); }
+      background-color: rgba(0, 0, 0, 0.95); }
       .osd scale trough highlight {
         background-color: #222222; }
     menuitem:hover scale trough,
@@ -2625,7 +2625,7 @@ filechooserbutton:drop(active) {
     border-style: none; }
 
 stacksidebar row {
-  padding: 10px 4px; }
+  padding: 0px 0px; }
   stacksidebar row > label {
     padding-left: 6px;
     padding-right: 6px; }
@@ -2885,7 +2885,7 @@ button.circular-button {
   padding: 0;
   min-width: 16px;
   min-height: 24px;
-  padding: 2px 6px;
+  padding: 0px 0px;
   border-radius: 50%;
   -gtk-outline-radius: 50%; }
   button.circular label, button.nautilus-circular-button.image-button label,
@@ -2895,7 +2895,7 @@ button.circular-button {
 .keycap {
   min-width: 16px;
   min-height: 20px;
-  padding: 3px 6px 4px 6px;
+  padding: 0px 0px 4px 6px;
   color: #FFFFFF;
   background-color: #000000;
   border: 1px solid #060606;
@@ -3199,7 +3199,7 @@ popover.background label.nautilus-canvas-item.separator, headerbar .nautilus-can
   border-width: 0 0 1px; }
 
 .open-document-selector-treeview.view, iconview.open-document-selector-treeview {
-  padding: 3px 6px 3px 6px;
+  padding: 0px 0px 3px 6px;
   border-color: #000000; }
   .open-document-selector-treeview.view:hover, iconview.open-document-selector-treeview:hover {
     background-color: #282828; }
@@ -3553,7 +3553,7 @@ panel-toplevel.background #tasklist-button image {
 .mate-panel-menu-bar .wnck-pager,
 panel-toplevel.background .wnck-pager {
   color: #5d6268;
-  background-color: rgba(0, 0, 0, 1); }
+  background-color: rgba(0, 0, 0, 0.95); }
   .mate-panel-menu-bar .wnck-pager:hover,
   panel-toplevel.background .wnck-pager:hover {
     background-color: rgba(27, 27, 27, 0.95); }
@@ -3674,7 +3674,7 @@ panel-toplevel.background button:not(#tasklist-button), .xfce4-panel.panel butto
     .panel .menu .window-frame.popup.csd {
       box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2), 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
   .panel .menubar > .menuitem {
-    padding: 3px 6px; }
+    padding: 0px 0px; }
     .panel .menubar > .menuitem:hover {
       background-color: transparent; }
   .panel .window-frame.menu.csd,
@@ -3740,7 +3740,7 @@ UnityDecoration {
     border: 1px solid rgba(23, 23, 23, 0.97);
     border-bottom-width: 0;
     border-radius: 4px 4px 0 0;
-    padding: 1px 6px 0 6px;
+    padding: 0px 0px 0 6px;
     background-image: linear-gradient(to bottom, #000000, #000000);
     color: rgba(255, 255, 255, 1.0);
     box-shadow: inset 0 1px rgba(49, 49, 49, 0.97); }
@@ -3792,7 +3792,7 @@ UnityPanelWidget,
   background-image: none;
   background-color: rgba(0, 0, 0, 0.5); }
   .lightdm.menubar > .menuitem {
-    padding: 2px 6px; }
+    padding: 0px 0px; }
 
 .lightdm-combo.combobox-entry .button,
 .lightdm-combo .cell,
@@ -3853,7 +3853,7 @@ UnityPanelWidget,
   background-color: #222222;
   border-color: #222222;
   border-radius: 2px;
-  padding: 3px 6px;
+  padding: 0px 0px;
   margin: 3px; }
   .overlay-bar label {
     color: #FFFFFF; }
@@ -3871,7 +3871,7 @@ GraniteWidgetsStaticNotebook .frame {
 
 .help_button {
   border-radius: 100px;
-  padding: 3px 9px; }
+  padding: 0px 0px; }
 
 toolbar.secondary-toolbar, .secondary-toolbar.inline-toolbar {
   padding: 3px;
@@ -3886,7 +3886,7 @@ toolbar.bottom-toolbar, .bottom-toolbar.inline-toolbar {
   border-color: #060606;
   background-color: #000000; }
   toolbar.bottom-toolbar button, .bottom-toolbar.inline-toolbar button {
-    padding: 2px 3px 2px 3px; }
+    padding: 0px 0px 2px 3px; }
 
 .source-list {
   -GtkTreeView-horizontal-separator: 1px;
@@ -4013,7 +4013,7 @@ GtkListBox .h4 {
   background-color: rgba(14, 14, 14, 0.95);
   color: #BAC3CF;
   font-weight: bold;
-  box-shadow: inset 0 -1px rgba(0, 0, 0, 1); }
+  box-shadow: inset 0 -1px rgba(0, 0, 0, 0.95); }
   #panel_window menubar {
     padding-left: 5px; }
     #panel_window menubar, #panel_window menubar > menuitem {
@@ -4251,7 +4251,7 @@ filechooser.maximized placessidebar.sidebar,
 filechooser actionbar {
   color: #BAC3CF;
   background-color: rgba(26, 26, 26, 0.95);
-  border-color: rgba(0, 0, 0, 1); }
+  border-color: rgba(0, 0, 0, 0.95); }
   filechooser actionbar label, filechooser actionbar combobox {
     color: #BAC3CF; }
 
@@ -4631,7 +4631,7 @@ filechooser placessidebar.sidebar scrollbar,
     padding: 3px;
     font-size: 15px; }
   .budgie-popover.workspace-popover .container {
-    padding: 2px 8px 8px; }
+    padding: 0px 0px 8px; }
   .budgie-popover.workspace-popover separator {
     margin: 4px 0; }
   .budgie-popover.workspace-popover flowboxchild {
@@ -4866,7 +4866,7 @@ calendar.raven-calendar {
   font-size: 120%; }
 
 .budgie-session-dialog .linked.horizontal > button, .budgie-session-dialog .budgie-panel .linked.horizontal > button {
-  padding: 8px 16px;
+  padding: 0px 0px;
   border-top: 1px solid #060606;
   border-radius: 0; }
   .budgie-session-dialog .linked.horizontal > button:first-child, .budgie-session-dialog .budgie-panel .linked.horizontal > button:first-child {

@@ -79,7 +79,7 @@ label:disabled {
 
 .dim-label, label.separator, popover label.separator,
 popover.background label.separator, headerbar .subtitle, .titlebar:not(headerbar) .subtitle, .budgie-notification .notification-body, .budgie-osd .notification-body, .budgie-switcher-window .notification-body, .budgie-switcher .notification-body {
-  opacity: 1s; }
+  opacity: 1; }
 
 assistant .sidebar {
   background-color: #000000;
